@@ -1,0 +1,41 @@
+*{
+ margin: 0;
+ padding:0;
+}
+.hacknitp-logo{
+    height: 5rem;
+}
+.hack-nitplogo{
+    margin: 1rem 1.2rem 0;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 100;
+}
+.menu-item{
+    list-style-type: none;
+    color:white;
+     margin: 0 1.2rem;
+     cursor: pointer;
+     font-size: 1.1rem;
+}
+.menu-item:hover{
+  padding-bottom: 3px;
+  border-bottom: 3px solid #59DB8A;
+}
+.menu-list , .menu{
+    display: flex;
+    align-items: center;
+}
+.btn-primary{
+    height: 2.5rem;
+    padding: 0 1.2rem;
+    border-radius: 0.6rem;
+    border: none;
+    background-color: #59DB8A;
+    margin-right: 1.2rem;
+    font-weight: 600;
+    cursor: pointer;
+}

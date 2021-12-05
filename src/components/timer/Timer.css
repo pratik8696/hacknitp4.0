@@ -1,0 +1,17 @@
+.heading{
+    color:#59DB8A;
+    text-align: center;
+}
+.timercont{
+    display: flex;
+    justify-content: center;
+}
+.timer-box{
+    height: 6rem;
+    width:5rem;
+    background-color: #1C172F;
+    border-radius: 0.6rem;
+    text-align: center;
+    margin: 3rem 1.5rem;
+    color:white;
+}

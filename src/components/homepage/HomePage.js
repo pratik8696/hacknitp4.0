@@ -5,6 +5,10 @@ import hacknitpold from '../../images/hacknitp-old.svg'
 import gameon from '../../images/game-on.svg'
 import curve1 from '../../images/Curve1.svg'
 import Timer from '../timer/Timer'
+import NavB from '../navbar2/NavB'
+import Prizes from '../prizes/Prizes'
+import Tracks from '../tracks/Tracks'
+import Timeline from '../timeline/Timeline'
 
 const HomePage = () => {
     return (
@@ -30,6 +34,9 @@ const HomePage = () => {
 
             </div>
             <Timer/>
+            <Prizes/>
+            <Timeline/>
+            <Tracks/>
         </div>
     )
 }

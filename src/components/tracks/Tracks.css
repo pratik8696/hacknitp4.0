@@ -1,0 +1,39 @@
+.track-grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    margin: 2rem;
+}
+.track-card{
+    height: 14rem;
+    width:20rem;
+    background-color:#1C172F;
+    text-align: center;
+    border-radius: 1.5rem;
+    color:white;
+    overflow: hidden;
+    cursor: pointer;
+    margin: 1.5rem;
+}
+.trac-icon{
+   z-index: 999; 
+   background-color:rgb(69, 202, 125);
+   padding: 6rem 8.8rem;
+   transition: 0.3s all;
+   margin:0;
+   font-size: 2rem;
+}
+.track-card:hover .trac-icon{
+ padding: 1rem;
+ border-radius:50%;
+ margin:1rem  0;
+ font-size: 1rem;
+}
+.track-description{
+    transform: scale(0);
+    transition: 0.3s all;
+    margin: 0 1rem;
+}
+.track-card:hover .track-description{
+    transform: scale(1)
+}

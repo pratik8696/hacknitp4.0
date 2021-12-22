@@ -12,10 +12,11 @@
   height: 100vh;
 }
 .home-body{
-  margin-top: 5rem;
+  margin-top: 5.5rem;
   display: flex;
   justify-content: space-evenly;
   z-index: 100;
+  margin-bottom: 7rem;
 }
 .hack-old{
   max-height: 5rem;

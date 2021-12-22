@@ -1,0 +1,22 @@
+.prizes-head{
+    color:#59DB8A;
+    text-align: left;
+    margin-left: 1rem;
+}
+.prize-container{
+     background-color: #1C172F;
+     margin: 3rem 4rem 4rem 4rem ;
+     border-radius: 2rem;
+     padding: 2rem 2rem 2rem 2rem;
+}
+.list-item{
+    color: white;
+    margin: 1rem 2rem;
+    font-size: 1.1rem;
+}
+ul{
+    margin:2rem 0;
+}
+.prizes-btn{
+    margin-left: 2rem;
+}

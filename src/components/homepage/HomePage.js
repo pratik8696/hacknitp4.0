@@ -13,6 +13,8 @@ import Instructions from '../instructions/Instructions'
 import Organizers from '../organizers/Organizers'
 import Highlights from '../highlights/Highlights'
 import Sponsors from '../sponsors/Sponsors'
+import Contact from '../contact/Contact'
+import Faq from '../faq/Faq'
 
 const HomePage = () => {
     return (
@@ -44,6 +46,8 @@ const HomePage = () => {
             <Instructions/>
             <Organizers/>
             <Sponsors/>
+            <Contact/>
+            <Faq/>
         </div>
     )
 }

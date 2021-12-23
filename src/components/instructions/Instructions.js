@@ -26,7 +26,7 @@ const Instructions = () => {
                    </li>
                </ul>
                <div className="instructions-btn">
-                   <button className='btn-secondary'>View Full Instructions</button>
+                   <button className='btn-secondary instructions'>View Full Instructions</button>
                </div>
            </div>
         </div>

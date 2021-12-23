@@ -15,6 +15,7 @@ import Highlights from '../highlights/Highlights'
 import Sponsors from '../sponsors/Sponsors'
 import Contact from '../contact/Contact'
 import Faq from '../faq/Faq'
+import Footer from '../footer/Footer'
 
 const HomePage = () => {
     return (
@@ -48,6 +49,7 @@ const HomePage = () => {
             <Sponsors/>
             <Contact/>
             <Faq/>
+            <Footer/>
         </div>
     )
 }

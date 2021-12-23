@@ -103,3 +103,8 @@ button {
 button:hover {
   background-color: #dae1f5;
 }
+.register-faq{
+  margin: auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}

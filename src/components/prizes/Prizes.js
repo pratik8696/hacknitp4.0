@@ -30,7 +30,7 @@ const Prizes = () => {
                    </li>
                </ul>
                <div className="prizes-btn">
-                   <button className='btn-primary'>Know More</button>
+                   <button className='btn-primary knowmore'>Know More</button>
                </div>
            </div>
         </div>

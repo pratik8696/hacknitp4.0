@@ -48,3 +48,6 @@
 .game-on{
   max-height: 25rem;
 }
+.home-btns{
+  display: flex;
+}

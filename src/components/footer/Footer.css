@@ -1,0 +1,43 @@
+.footer{
+    background-color: #1C172F;
+    margin-top: 3rem;
+}
+.foot-logo{
+    height: 5rem;
+    margin: 3rem;
+}
+.footer-up{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-up-right{
+ display: flex;
+ align-items: center;
+ margin-right: 1rem;
+}
+.termNc , .cnc{
+    text-decoration: none;
+    color: white;
+    margin: 0 1rem;
+}
+.hr{
+    width: 95%;
+    height: 1px;
+    background-color: grey;
+    margin: auto;
+}
+.foot-bottom{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 2rem 0 ;
+    padding-bottom: 1rem;
+}
+.socialm{
+    padding: 0.6rem;
+    background-color: #0b071a;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    margin: 0 0.5rem ;
+}

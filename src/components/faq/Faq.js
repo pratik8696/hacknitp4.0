@@ -106,6 +106,19 @@ accordionItemHeaders.forEach((accordionItemHeader) => {
                 </div>
             </div>
             </div>
+
+          <div className="faq-foot">
+          <h2 className="heading">
+            <span className="white">
+              What are you waiting for? Register now.
+            </span>
+          </h2>
+          <div className="register-btn-faq">
+            <button className="btn-primary register-faq">
+            Register Now
+          </button>
+          </div>
+          </div>  
     </div>
     )
 }

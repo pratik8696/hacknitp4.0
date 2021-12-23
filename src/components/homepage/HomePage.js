@@ -9,6 +9,8 @@ import NavB from '../navbar2/NavB'
 import Prizes from '../prizes/Prizes'
 import Tracks from '../tracks/Tracks'
 import Timeline from '../timeline/Timeline'
+import Instructions from '../instructions/Instructions'
+import Organizers from '../organizers/Organizers'
 
 const HomePage = () => {
     return (
@@ -37,6 +39,8 @@ const HomePage = () => {
             <Prizes/>
             <Timeline/>
             <Tracks/>
+            <Instructions/>
+            <Organizers/>
         </div>
     )
 }

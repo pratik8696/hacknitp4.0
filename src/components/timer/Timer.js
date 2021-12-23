@@ -6,7 +6,7 @@ const Timer = () => {
       
     var deadline = new Date( "jan 1 , 2022  00:00:00").getTime();
 
-    var x = setInterval(function(){
+    setInterval(function(){
         var now = new Date().getTime() ;
         var t = deadline - now ;
         var days = Math.floor(t / (1000 * 60 * 60 * 24));

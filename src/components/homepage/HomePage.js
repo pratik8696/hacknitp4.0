@@ -11,6 +11,8 @@ import Tracks from '../tracks/Tracks'
 import Timeline from '../timeline/Timeline'
 import Instructions from '../instructions/Instructions'
 import Organizers from '../organizers/Organizers'
+import Highlights from '../highlights/Highlights'
+import Sponsors from '../sponsors/Sponsors'
 
 const HomePage = () => {
     return (
@@ -41,6 +43,7 @@ const HomePage = () => {
             <Tracks/>
             <Instructions/>
             <Organizers/>
+            <Sponsors/>
         </div>
     )
 }

@@ -53,7 +53,7 @@
 }
 .socials{
   color: white;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   display: flex;
   background-color: rgb(56, 190, 116);
   height: 3rem;
@@ -61,6 +61,7 @@
   justify-content: space-evenly;
   margin-top: 3.5rem;
   transition: 0.3s all;
+  border-radius: 0.5rem;
 }
 .organizer-card:hover .socials{
     transform: translateY(-3rem);
@@ -75,8 +76,18 @@
     margin: 3rem 8rem;
 }
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:900px) {
     .organizers-grid{
     margin: 3rem 1rem;
+}
+.organizer-card{
+    height:16rem;
+    width:12rem;
+    background-color: #1C172F;
+    border-radius: 1.5rem;
+    text-align: center;
+    align-items: center;
+    overflow: hidden;
+    margin: 0 1rem 4rem 1rem ;
 }
 }

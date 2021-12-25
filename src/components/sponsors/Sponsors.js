@@ -53,7 +53,7 @@ const Sponsors = () => {
                           Contact us at <a href="mailto:hackslash@nitp.ac.in" className='mail-id'> hackslash@nitp.ac.in</a>
                       </span>
                   </h2>
-                  <div className="sponsor-brochure-btn">
+                  <div className="sponsor-brochure-btn dnld-sponsor-broc">
                       <button className='btn-primary'>Download Sponsor Brochure</button>
                   </div>
 

@@ -16,7 +16,7 @@ const Footer = () => {
                      <a href="/" className="cnc">
                          Code of conduct
                      </a>
-                     <button className="btn-primary">
+                     <button className="btn-primary btn-last">
                          Join Our Discord
                      </button>
                 </div>
@@ -25,9 +25,9 @@ const Footer = () => {
 
             </div>
             <div className="foot-bottom">
-               <h3 className="foot-bottom-left">
+               <h4 className="foot-bottom-left">
                    ©2022 HACKSLASH | All rights reserved
-               </h3>
+               </h4>
               <div className="foot-bottom-right">
                 <i class="fab fa-twitter socialm"></i>
                 <i class="fab fa-linkedin socialm"></i>

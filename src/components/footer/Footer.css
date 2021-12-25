@@ -41,3 +41,18 @@
     font-size: 1.2rem;
     margin: 0 0.5rem ;
 }
+@media screen and (max-width:900px) {
+    .footer-up , .footer-up-right{
+       flex-direction: column;
+       gap:1rem;
+    }
+    .btn-last{
+        margin: 0.5rem 0 1rem 0;
+    }
+    .foot-bottom{
+      flex-direction: column-reverse;
+      align-items: center;
+      justify-content: center;
+      gap: 1rem;
+    }
+}

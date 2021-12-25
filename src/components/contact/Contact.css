@@ -44,9 +44,28 @@ textarea{
     padding-top: 0.5rem;
 }
 .contactImg{
-    height: 80%;
+    height: 20rem;
     margin-top: 2rem;
 }
 .contact-form{
     margin-left: 1rem;
+}
+@media screen and (max-width:900px){
+  .contact-flex{
+      flex-direction: column-reverse;
+      align-items: center;
+      justify-content: center;
+      align-self: center;
+      align-content: center;
+      padding-bottom: 2rem;
+  }
+  .contactImg{
+    margin-top: 2rem;
+}
+.contact-form{
+    margin-left: 0rem;
+}
+.contact-img, .contactImg{
+    margin: auto;
+}
 }

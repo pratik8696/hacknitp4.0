@@ -43,21 +43,36 @@
 .mail-id{
     color: rgb(43, 116, 226);
 }
+.dnld-sponsor-broc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 17rem;
+    margin: auto;
+    text-align: center;
+}
 
 @media screen and ( max-width:1000px){
-    .enquire-sponsors-cont{
-    margin: 2rem 4rem;
-}
-.platinum-cont{
-    margin: 0 4rem;
-}
-}
-
-@media screen and ( max-width:800px){
     .enquire-sponsors-cont{
     margin: 2rem 2rem;
 }
 .platinum-cont{
     margin: 0 2rem;
+}
+}
+
+@media screen and ( max-width:900px){
+    .enquire-sponsors-cont{
+    margin: 2rem 0.5rem;
+}
+.platinum-cont{
+    margin: 0 0.5rem;
+}
+.sponsor-bp{
+    height: 6.5rem;
+    width: 12rem;
+    border-radius: 1rem;
+    background-color: #1C172F;
+    margin: 2rem 0.5 2rem 0.5rem;
 }
 }

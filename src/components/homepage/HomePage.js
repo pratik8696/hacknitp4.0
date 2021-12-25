@@ -20,7 +20,7 @@ import Footer from '../footer/Footer'
 const HomePage = () => {
     return (
         <div className='body'>
-            <NavBar/>
+            <NavB/>
             <div className="home-body">
                 <div className="home-left">
                     <img src={hacknitpold}  className='hack-old'/>

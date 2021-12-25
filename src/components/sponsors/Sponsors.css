@@ -14,7 +14,7 @@
     display:flex ;
     flex-wrap: wrap;
     margin: 0 8rem;
-    justify-content: center;
+    justify-content:space-evenly;
 }
 .platinum{
  margin-top: 2rem;
@@ -63,16 +63,16 @@
 
 @media screen and ( max-width:900px){
     .enquire-sponsors-cont{
-    margin: 2rem 0.5rem;
+    margin: 2rem 0.1rem;
 }
 .platinum-cont{
-    margin: 0 0.5rem;
+    margin: 0 2rem;
 }
 .sponsor-bp{
-    height: 6.5rem;
-    width: 12rem;
+    height: 5rem;
+    width: 8rem;
     border-radius: 1rem;
     background-color: #1C172F;
-    margin: 2rem 0.5 2rem 0.5rem;
+    margin: 1rem 0.3rem 1rem 0.3rem;
 }
 }

@@ -37,3 +37,9 @@
 .track-card:hover .track-description{
     transform: scale(1)
 }
+
+@media screen and ( max-width:900px){
+    .track-grid{
+    margin: 0.5rem;
+}
+}

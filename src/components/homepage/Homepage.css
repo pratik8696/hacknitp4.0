@@ -1,16 +1,11 @@
 *{
     margin: 0;
     padding: 0;
-    scroll-behavior: smooth;
 }
 .body{
   background-color: #0E0A1B;
   height: fit-content;
-}
-.curve1{
-  position: absolute;
-  width: 100vw;
-  height: 100vh;
+  scroll-behavior: smooth;
 }
 .home-body{
   margin-top: 5.5rem;
@@ -52,6 +47,17 @@
 .home-btns{
   display: flex;
 }
+.btn-primary{
+    height: 2.5rem;
+    padding: 0 1.2rem;
+    border-radius: 0.6rem;
+    border: none;
+    background-color: #59DB8A;
+    margin-right: 1.2rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
 
 @media screen and (max-width:900px) {
   .home-body{
@@ -63,5 +69,11 @@
   .game-on{
   max-width: 60vw;
   margin-bottom: 3rem;
+}
+.home-left{
+  margin: 1rem;
+}
+.hack-old{
+  max-height: 4.5rem;
 }
 }

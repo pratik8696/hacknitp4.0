@@ -1,6 +1,6 @@
-#ToDo
+<h1>ToDo</h1>
 
-Add AOS
-Fix Faq Section
-About Section
-Fixing Hover Actions
+<li>Add AOS</li>
+<li>Fix Faq Section</li>
+<li>About Section</li>
+<li>Fixing Hover Actions</li>

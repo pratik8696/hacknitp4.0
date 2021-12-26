@@ -1,12 +1,19 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import './Prizes.css';
+import AOS from 'aos';
+import "aos/dist/aos.css";
 
 const Prizes = () => {
+    useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
     return (
         <div>
            <h1 className="heading">PRIZES</h1> 
            <div className="prize-container">
-               <h2 className="prizes-head">
+               <div data-aos="fade-up">
+                   <h2 className="prizes-head">
                    Perks for each participant
                </h2>
                <ul>
@@ -31,6 +38,7 @@ const Prizes = () => {
                </ul>
                <div className="prizes-btn">
                    <button className='btn-primary knowmore'>Know More</button>
+               </div>
                </div>
            </div>
         </div>

@@ -1,9 +1,9 @@
-import React from 'react'
+import React , {useEffect} from 'react'
 import './Timer.css'
-
+import AOS from 'aos';
+import "aos/dist/aos.css";
 
 const Timer = () => {
-      
     var deadline = new Date( "jan 1 , 2022  00:00:00").getTime();
 
     setInterval(function(){
@@ -19,8 +19,13 @@ const Timer = () => {
         document.querySelector(".seconds").innerHTML = seconds;
     },1000);
 
+    useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
+
     return (
-        <div>
+        <div className='timer-contt' data-aos="fade-up">
            <h1 class="heading">EVENT STARTS IN</h1>
            <div className="timercont">
                <div className="timer-box">

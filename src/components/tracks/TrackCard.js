@@ -1,8 +1,14 @@
-import React from 'react'
+import React, {useEffect} from 'react'
+import AOS from 'aos';
+import "aos/dist/aos.css";
 
 const TrackCard = () => {
+    useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
     return (
-        <div class='track-card'>
+        <div class='track-card' data-aos="fade-up">
          <div className="track-icon">
             <i class="fas fa-robot trac-icon"></i>
          </div>

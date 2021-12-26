@@ -4,8 +4,8 @@ import contactImg from '../../images/contact-img.svg'
 
 const Contact = () => {
     return (
-        <div className='contact'>
-            <div className="contact-head">
+        <div className='contact' id='contact'>
+            <div className="contact-head" data-aos="fade-up">
                 <h1 className="heading">
                 <span className="black">
                     Contact Us
@@ -16,7 +16,7 @@ const Contact = () => {
                   riuhuewr iiuy4 itiut3ut 
             </p>
             </div>
-            <div className="contact-flex">
+            <div className="contact-flex" data-aos="fade-up">
                 <div className="contact-form">
                     <h3 className="form-head">
                         Fill the Details

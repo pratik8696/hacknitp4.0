@@ -2,7 +2,7 @@ import React from 'react'
 
 const SponsorBP = () => {
     return (
-        <div className='sponsor-bp'>
+        <div className='sponsor-bp' data-aos="fade-up">
             
         </div>
     )

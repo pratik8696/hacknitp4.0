@@ -3,7 +3,7 @@ import TrackCard from './TrackCard'
 import './Tracks.css'
 const Tracks = () => {
     return (
-        <div>
+        <div id="tracks">
             <h1 className="heading">TRACKS</h1>
             <div className="track-grid">
             <TrackCard/>

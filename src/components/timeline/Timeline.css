@@ -3,11 +3,13 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
+    z-index: 1;
 }
 .timeline {
   margin: 20px auto;
   padding: 20px;
   margin-top: 3rem;
+  z-index: 1;
 }
 
 /* Card container */
@@ -118,4 +120,7 @@
 }
 .timeline-des{
     margin: 0.5rem;
+}
+.outer , .card{
+  z-index: 1;
 }

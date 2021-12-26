@@ -2,6 +2,9 @@
     color:#59DB8A;
     text-align: center;
 }
+.timer-contt{
+    margin-top: 4rem;
+}
 .timercont{
     display: flex;
     justify-content: center;
@@ -9,10 +12,11 @@
 .timer-box{
     height: 6rem;
     width:5rem;
-    background-color: #1C172F;
-    border-radius: 0.6rem;
+    background-color:#20193f;
+    box-shadow: -2px -3px 0 0 rgb(79, 196, 79);
+    border-radius: 0 0  1.2rem 0;
     text-align: center;
-    margin: 3rem 1.5rem;
+    margin: 3rem 2.5rem;
     color:white;
 }
 .big-time{

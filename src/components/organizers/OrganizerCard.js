@@ -4,7 +4,7 @@ import img17 from '../../images/avatar.gif'
 
 const OrganizerCard = () => {
     return (
-        <div className='organizer-card'>
+        <div className='organizer-card' data-aos="fade-up">
             <div className="animation-circle">
 
             </div>

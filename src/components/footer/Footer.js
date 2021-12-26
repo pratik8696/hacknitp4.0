@@ -4,7 +4,7 @@ import logo from '../../images/hacknitplogo.svg'
 
 const Footer = () => {
     return (
-        <div className='footer'>
+        <div className='footer' data-aos="fade-up">
             <div className="footer-up">
                 <div className="footer-up-left">
                      <img src={logo} alt="" className='foot-logo'/>

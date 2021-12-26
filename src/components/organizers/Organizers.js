@@ -11,7 +11,7 @@ const Organizers = () => {
                 </span>
             </h1>
              <div className="organizers-grid">
-                 <OrganizerCard/>
+                 <OrganizerCard />
                  <OrganizerCard/>
                  <OrganizerCard/>
                  <OrganizerCard/>

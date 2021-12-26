@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react"
 import './NavB.css'
 import logo from '../../images/hacknitplogo.svg'
 const NavB = () => {
@@ -7,7 +7,7 @@ const NavB = () => {
        document.querySelector('.popup').classList.toggle("popup-open");  
     }
     return (
-        <>
+        <div className='nav-bar'>
         <div className="popup">
            <div className="cut-btn-flex" onClick={handleMenu}>
                 <i class="fas fa-times popup-cut-btn"></i>
@@ -15,10 +15,10 @@ const NavB = () => {
                  <nav class="stroke">
                     <ul className='nav-mob'>
                     <li onClick={handleMenu}><a href="#">Home</a></li>
-                    <li onClick={handleMenu}><a href="#">About</a></li>
-                    <li onClick={handleMenu}><a href="#">Downloads</a></li>
-                    <li onClick={handleMenu}><a href="#">More</a></li>
-                    <li onClick={handleMenu}><a href="#">Nice staff</a></li>
+                    <li onClick={handleMenu}><a href="#about">About</a></li>
+                    <li onClick={handleMenu}><a href="#tracks">Tracks</a></li>
+                    <li onClick={handleMenu}><a href="#contact">Contact</a></li>
+                    <li onClick={handleMenu}><a href="#faq">FAQ</a></li>
                     </ul> 
                     <div className="disc-btn">
                         <button className='btn btn-primary' onClick={handleMenu}>Join us on Discord</button>
@@ -34,10 +34,10 @@ const NavB = () => {
                     
                     <ul>
                     <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Downloads</a></li>
-                    <li><a href="#">More</a></li>
-                    <li><a href="#">Nice staff</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#tracks">Tracks</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#faq">FAQ</a></li>
                     </ul>
                     <div className="disc-btn">
                         <button className='btn btn-primary'>Join us on Discord</button>
@@ -48,7 +48,7 @@ const NavB = () => {
                 <i class="fas fa-bars" onClick={handleMenu}></i>
             </div>
         </div>
-        </>
+        </div>
     )
 }
 

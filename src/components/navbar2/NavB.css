@@ -1,11 +1,23 @@
 .navbar2{
-    display: flex;
-    justify-content: space-between;
-    padding: 0rem 1rem 0 1rem;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #231d3b;
+  top: 0;
+  left: 0;
+  height: 5rem;
+  box-shadow: 0px 1px 5px 0px rgb(17, 17, 17);
+  z-index: 998;
+}
+.nav-bar{
+  position: fixed;
+  z-index: 999;
 }
 .njack-logo{
-    max-height: 4.5rem;
+    max-height: 4rem;
     margin-left: 1rem;
 }
 nav ul {
@@ -88,15 +100,16 @@ nav.fill ul li a:hover:after {
     display: none;
     color: white;
     font-size: 1.3rem;
-    margin: 2rem;
+    margin: 1.5rem;
  }
  .popup{
    display: none;
    z-index: 999;
+   position: fixed;
  }
 @media screen  and (max-width:900px){
   .njack-logo{
-    max-height: 4rem;
+    max-height: 3.5rem;
     margin-left: 1rem;
 }
   .right-alt{
@@ -111,14 +124,15 @@ nav.fill ul li a:hover:after {
   .popup{
    display: block;
    height: 28rem;
-   width:100%;
+   width:100vw;
    background-color:#1C172F ;
-   position: absolute;
-   transform: translateY(-28rem);
+   position: relative;
+   transform: translateY(-58rem);
    transition: 0.4s ease-out;
+   z-index: 999;
  }
  .popup-open{
-   transform: translateY(0rem);
+   transform: translateY(-16rem);
  }
  .nav-mob{
    display: flex;
@@ -150,4 +164,9 @@ nav.fill ul li a:hover:after {
   margin: 2rem;
   margin-right: 2.5rem;
  }
+}
+@media screen  and (max-width:500px){
+  .popup-open{
+   transform: translateY(-23rem);
+  } 
 }

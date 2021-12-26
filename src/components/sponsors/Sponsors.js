@@ -42,7 +42,7 @@ const Sponsors = () => {
                     
                 </div>
 
-                <div className="enquire-sponsors-cont">
+                <div className="enquire-sponsors-cont" data-aos="fade-up">
                   <h1 className="heading"><span className='white'>Want to Sponsor us?</span></h1>
                   <p className="last-yr-sponsors">
                       Click here to see our last year sponsors 

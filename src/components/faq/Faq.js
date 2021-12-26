@@ -37,8 +37,8 @@ accordionItemHeaders.forEach((accordionItemHeader) => {
 
 
     return (
-        <div className='faq-container'>
-            <div className="faq-head">
+        <div className='faq-container' id='faq'>
+            <div className="faq-head" data-aos="fade-up">
                 <h1 className="heading">
                 <span className="white">
                     Frequently Asked </span> Questions
@@ -47,7 +47,7 @@ accordionItemHeaders.forEach((accordionItemHeader) => {
                 Participants can take part only as a team. A team must comprise of.
             </p>
             </div>
-            <div className="faqs">
+            <div className="faqs" data-aos="fade-up">
 
                 <div className="accordion-item">
                 <div id="test" className="accordion-item-header">
@@ -107,7 +107,7 @@ accordionItemHeaders.forEach((accordionItemHeader) => {
             </div>
             </div>
 
-          <div className="faq-foot">
+          <div className="faq-foot" data-aos="fade-up">
           <h2 className="heading">
             <span className="white">
               What are you waiting for? Register now.

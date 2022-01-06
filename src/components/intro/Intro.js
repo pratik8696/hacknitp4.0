@@ -14,7 +14,7 @@ const Intro = () => {
             <div className='intro-cont'>
             <div className="intro-1"  data-aos="fade-up">
                 <h1 className="big-text">
-                    36
+                    48
                 </h1>
                 <p className="text-small">
                     hours

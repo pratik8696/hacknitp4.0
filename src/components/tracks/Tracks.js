@@ -6,12 +6,12 @@ const Tracks = () => {
         <div id="tracks">
             <h1 className="heading">TRACKS</h1>
             <div className="track-grid">
-            <TrackCard/>
-            <TrackCard/>
-            <TrackCard/>
-            <TrackCard/>
-            <TrackCard/>
-            <TrackCard/>
+                <TrackCard title="Open Innovation" description="LoremIpsum LoremIpsum LoremIpsum LoremIpsum LoremIpsum "/>
+            <TrackCard title="Employability" />
+            <TrackCard title="Education"/>
+            <TrackCard title="Food"/>
+            <TrackCard title="Sustainable Development"/>
+            <TrackCard title="Social Security"/>
             </div>
         </div>
     )

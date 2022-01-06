@@ -12,10 +12,10 @@ const OrganizerCard = () => {
                 <img src={img17} alt="not-available" className='person-img'/>
             </div>
             <p className="person-name">
-              Elon Musk
+              Lorem Ipsum
             </p>
             <h4 className="person-post">
-                Chairperson
+                Organizer
             </h4>
             <div className="socials">
                 <i class="fab fa-twitter"></i>

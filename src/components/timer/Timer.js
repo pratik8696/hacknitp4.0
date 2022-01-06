@@ -4,7 +4,7 @@ import AOS from 'aos';
 import "aos/dist/aos.css";
 
 const Timer = () => {
-    var deadline = new Date( "jan 1 , 2022  00:00:00").getTime();
+    var deadline = new Date( "feb 11 , 2022  18:00:00").getTime();
 
     setInterval(function(){
         var now = new Date().getTime() ;

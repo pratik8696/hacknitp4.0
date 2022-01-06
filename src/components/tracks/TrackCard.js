@@ -2,7 +2,7 @@ import React, {useEffect} from 'react'
 import AOS from 'aos';
 import "aos/dist/aos.css";
 
-const TrackCard = () => {
+const TrackCard = (props) => {
     useEffect(() => {
     AOS.init();
     AOS.refresh();
@@ -14,10 +14,10 @@ const TrackCard = () => {
          </div>
          <div className="track-description">
              <h2 className="trach-head">
-             IoT
+             {props.title}
          </h2>
          <p className="track-des">
-            Potential candidates get a chance to bag an internship or a full time job at Quidnunc’s IT division with stipend and seed funding upto 2Lakh*. 
+            {props.description}
          </p>
          </div>
         </div>

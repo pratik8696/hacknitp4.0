@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import './Footer.css'
 import logo from '../../images/hacknitplogo.svg'
 
@@ -17,7 +18,7 @@ const Footer = () => {
                          Code of conduct
                      </a>
                      <button className="btn-primary btn-last">
-                         Join Our Discord
+                        <Link to={{ pathname: "https://bit.ly/hacknitp-4-discord" }} target='_blank' className='discordbtn'> Join Our Discord</Link>
                      </button>
                 </div>
             </div>

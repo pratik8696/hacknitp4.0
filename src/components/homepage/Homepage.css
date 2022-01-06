@@ -8,6 +8,10 @@
   height: fit-content;
   scroll-behavior: smooth;
 }
+.discordbtn{
+  text-decoration: none !important;
+  color:rgb(97, 221, 144);
+}
 .home-body{
   height: 100vh;
   z-index: 100;

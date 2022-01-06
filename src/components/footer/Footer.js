@@ -34,14 +34,29 @@ const Footer = () => {
                     ©2022 HACKSLASH | All rights reserved
                 </h4>
                 <div className="foot-bottom-right">
-                    <i class="fab fa-twitter socialm"></i>
-                    <i class="fab fa-linkedin socialm"></i>
-                    <i class="fab fa-instagram socialm"></i>
-                    <i class="fab fa-discord socialm"></i>
-                    <i class="fab fa-youtube socialm"></i>
+                    <Link to={{ pathname: "https://twitter.com/hackslash_nitp/" }} target='_blank' className='discordbtnf'>
+                        <i class="fab fa-twitter socialm"></i>
+                    </Link>
+                    <Link to={{ pathname: "https://www.linkedin.com/company/hackslash" }} target='_blank' className='discordbtnf'>
+                        <i class="fab fa-linkedin socialm"></i>
+                    </Link>
+                    <Link to={{ pathname: "https://www.instagram.com/hackslash.nitp/?hl=en" }} target='_blank' className='discordbtnf'>
+                        <i class="fab fa-instagram socialm"></i>
+                    </Link>
+                    <Link to={{ pathname: "https://bit.ly/hacknitp-4-discord" }} target='_blank' className='discordbtnf'>
+                        <i class="fab fa-discord socialm"></i>
+                    </Link>
+                    <Link to={{ pathname: "https://www.youtube.com/c/HackSlashDevelopersClub/" }} target='_blank' className='discordbtnf'>
+                        <i class="fab fa-youtube socialm"></i>
+                    </Link>
                 </div>
             </div>
         </div>
+        // https://www.instagram.com/hackslash.nitp/?hl=en
+        // https://www.linkedin.com/company/hackslash
+        // https://www.youtube.com/c/HackSlashDevelopersClub/
+        // https://twitter.com/hackslash_nitp/
+        // https://www.facebook.com/hackSlash.nitp/
     )
 }
 

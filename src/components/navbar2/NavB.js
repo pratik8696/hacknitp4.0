@@ -23,8 +23,8 @@ const NavB = () => {
                     </ul>
                     <div className="disc-btn">
                         <button className='btn btn-primary'>
-                            <Link to={{ pathname: "https://bit.ly/hacknitp-4-discord" }} target='_blank' className='discordbtn'>
-                                Join us on Discord
+                            <Link to={{ pathname: "https://bit.ly/hacknitp-4-discord" }} target='_blank' className='discordbtnf'>
+                                Join Our Discord
                             </Link>
                         </button>
                     </div>
@@ -46,8 +46,8 @@ const NavB = () => {
                         </ul>
                         <div className="disc-btn">
                             <button className='btn btn-primary'>
-                                <Link to={{ pathname: "https://bit.ly/hacknitp-4-discord" }} target='_blank' className='discordbtn'>
-                                Join us on Discord
+                                <Link to={{ pathname: "https://bit.ly/hacknitp-4-discord" }} target='_blank' className='discordbtnf'>
+                                    Join Our Discord
                                 </Link>
                                 </button>
                         </div>

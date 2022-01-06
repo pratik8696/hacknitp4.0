@@ -13,7 +13,8 @@
 }
 .discordbtnf
 {
-    color:black;
+    color:white;
+    text-decoration: none !important;
 }
 .footer-up-right{
  display: flex;

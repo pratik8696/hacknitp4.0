@@ -47,9 +47,10 @@ const Sponsors = () => {
             <h1 className="heading"><span className='white'>
                 Lead </span> Organizer
             </h1>
-            <h2 className="level2-heading platinum">
-                Platinum Sponsors
-            </h2>
+            <h1 className="heading"><span className='white'>
+                Community </span> Partner
+            </h1>
+
             <div className="enquire-sponsors-cont" data-aos="fade-up">
                 <h1 className="heading"><span className='white'>Want to Sponsor us?</span></h1>
                 <p className="last-yr-sponsors">

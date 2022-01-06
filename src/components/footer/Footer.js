@@ -8,34 +8,38 @@ const Footer = () => {
         <div className='footer' data-aos="fade-up">
             <div className="footer-up">
                 <div className="footer-up-left">
-                     <img src={logo} alt="" className='foot-logo'/>
+                    <img src={logo} alt="" className='foot-logo' />
                 </div>
                 <div className="footer-up-right">
-                     <a href="/" className="termNc">
-                         Terms and conditions
-                     </a>
-                     <a href="/" className="cnc">
-                         Code of conduct
-                     </a>
-                     <button className="btn-primary btn-last">
-                        <Link to={{ pathname: "https://bit.ly/hacknitp-4-discord" }} target='_blank' className='discordbtn'> Join Our Discord</Link>
-                     </button>
+                    <a href="/" className="termNc">
+                        Terms and conditions
+                    </a>
+                    <a href="/" className="cnc">
+                        Code of conduct
+                    </a>
+
+                    <button className="btn-primary btn-last">
+                        <Link to={{ pathname: "https://bit.ly/hacknitp-4-discord" }} target='_blank' className='discordbtnf'>
+                            Join Our Discord
+                        </Link>
+                    </button>
+
                 </div>
             </div>
             <div className="hr">
 
             </div>
             <div className="foot-bottom">
-               <h4 className="foot-bottom-left">
-                   ©2022 HACKSLASH | All rights reserved
-               </h4>
-              <div className="foot-bottom-right">
-                <i class="fab fa-twitter socialm"></i>
-                <i class="fab fa-linkedin socialm"></i>
-                <i class="fab fa-instagram socialm"></i>
-                <i class="fab fa-discord socialm"></i>
-                <i class="fab fa-youtube socialm"></i>
-              </div>
+                <h4 className="foot-bottom-left">
+                    ©2022 HACKSLASH | All rights reserved
+                </h4>
+                <div className="foot-bottom-right">
+                    <i class="fab fa-twitter socialm"></i>
+                    <i class="fab fa-linkedin socialm"></i>
+                    <i class="fab fa-instagram socialm"></i>
+                    <i class="fab fa-discord socialm"></i>
+                    <i class="fab fa-youtube socialm"></i>
+                </div>
             </div>
         </div>
     )

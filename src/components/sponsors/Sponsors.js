@@ -1,6 +1,7 @@
 import React from 'react'
 import SponsorBP from './SponsorBP';
 import './Sponsors.css';
+import Organiser from '../organiser/Organiser';
 
 const Sponsors = () => {
     return (
@@ -44,12 +45,16 @@ const Sponsors = () => {
             </div>
             <br></br>
             <br></br>
+            <div>
             <h1 className="heading"><span className='white'>
                 Lead </span> Organizer
-            </h1>
+            </h1><br/>
+            <Organiser/>
+            <br/>
             <h1 className="heading"><span className='white'>
                 Community </span> Partner
             </h1>
+            </div>
 
             <div className="enquire-sponsors-cont" data-aos="fade-up">
                 <h1 className="heading"><span className='white'>Want to Sponsor us?</span></h1>

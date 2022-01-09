@@ -1,0 +1,76 @@
+.main-cont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Organiser-card{
+    display: flex;
+    flex-direction:row;
+    height: auto;
+    width: 600px;
+    background-color: #1C172F;
+    border-radius: 1rem;
+}
+.Organiser-card-image{
+    height:300px;
+    width: 50%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-img{
+    height: 100%;
+    width: auto;
+    object-fit: fill;
+}
+.Organiser-card-text{
+    height:100%;
+    width: 50%;
+    overflow: hidden;
+    padding: 10px 15px 10px 15px;
+}
+.Organiser-card-text h1, .Organiser-card-text p{
+    color: white;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.fab{
+    color: #59db8a;
+    font-size: 30px;
+    padding: 0 0.75rem 0 1rem;
+    cursor: pointer;
+}
+.fab:hover{
+    color: white;
+    text-decoration: none;
+    transform: scale(1.1);
+}
+.Organiser-card-social-icons{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+@media screen and (max-width:650px){
+    .Organiser-card{
+        display: flex;
+        flex-direction:column;
+        width: 300px;
+    }
+    .Organiser-card-image, .Organiser-card-text{
+        width: auto;
+    }
+    .Organiser-card-text h1{
+        text-align: center;
+    }
+    .fab{
+        padding: 0 1.5rem 0 0;
+    }
+    .Organiser-card-social-icons{
+        justify-content: center;
+
+    }
+}

@@ -1,6 +1,6 @@
 import React from 'react'
 import './faq.css'
-import FaqBluePrint from './FaqBluePrint'
+// import FaqBluePrint from './FaqBluePrint'
 const faq = () => {
 
   const accordionItemHeaders = document.querySelectorAll(

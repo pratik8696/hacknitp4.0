@@ -1,6 +1,7 @@
 .main-cont{
-    display: grid;
-    place-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .Organiser-card{
     display: flex;
@@ -14,6 +15,9 @@
     height:300px;
     width: 50%;
     overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .card-img{
     height: 100%;
@@ -57,10 +61,7 @@
         width: 300px;
     }
     .Organiser-card-image, .Organiser-card-text{
-        width: 100%;
-    }
-    .Organiser-card-text p{
-        width: 94%;
+        width: auto;
     }
     .Organiser-card-text h1{
         text-align: center;

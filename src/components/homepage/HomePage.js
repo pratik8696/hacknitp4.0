@@ -29,7 +29,7 @@ const HomePage = () => {
                 <NavB />
                 <div className="home-body-bg" data-aos="fade-up">
                     <div className="home-left">
-                        <img src={hacknitpold} className='hack-old' />
+                        <img src={hacknitpold} className='hack-old' alt="hacknitp"/>
                         <h3 className="home-date">
                             February 11,2022 - February 13,2022
                         </h3>
@@ -44,7 +44,7 @@ const HomePage = () => {
                         </div>
                     </div>
                     <div className="home-right">
-                        <img src={gameon} alt="" className='game-on' />
+                        <img src={gameon} alt="game-on" className='game-on' />
                     </div>
 
                 </div>
